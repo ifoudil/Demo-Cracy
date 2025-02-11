@@ -9,7 +9,7 @@ La démocratie participative permet aux citoyens de proposer, discuter et voter 
 - Authentification sécurisée
 - Création et administration de groupes
 
-#### Propositions et discussions
+### Propositions et discussions
 - Soumission et discussion de propositions
 - Commentaires et réactions
 - Signalement des contenus inappropriés
