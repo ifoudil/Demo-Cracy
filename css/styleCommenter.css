@@ -1,0 +1,21 @@
+.commenter {
+  background-color: #9b59b6; 
+  border-radius: 10px; 
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.page-vote-commenter{
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0; 
+}
+
+.page-vote-commenter:first-line {
+  color: #f1c40f;
+  font-weight: bold; 
+}

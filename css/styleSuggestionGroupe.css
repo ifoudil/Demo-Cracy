@@ -1,0 +1,45 @@
+.suggestion-list {
+    padding: 0; 
+    max-width: 600px;  
+    margin: 10px auto;  
+    border-radius: 15px;  
+    list-style-type: none;  
+    font-size: 1.2em;  
+    color: #333; 
+    text-align: left;  
+    padding: 10px;  
+}
+
+.suggestion-item {
+    padding: 8px 15px;  
+    margin-bottom: 10px;  
+    background-color: #ffffff;  
+    border-radius: 15px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    max-width: 80%;  
+    word-wrap: break-word;  
+    width: 500px;
+    height: 80px;
+}
+
+.titre-sug {
+    font-weight: bold;  
+    font-size: 1em;  
+    margin: 5px 0;  
+}
+
+.descSug {
+    font-weight: normal;  
+    font-size: 0.7em;  
+    margin: 5px 0;  
+}
+
+.themeSug {
+    text-align: center;
+    font-weight: bold;  
+    font-size: 0.7em;  
+    width: 20%;
+    background-color:#A588C3; 
+    border: none;
+    border-radius: 5px;
+}

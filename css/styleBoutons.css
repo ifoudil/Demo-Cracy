@@ -1,0 +1,91 @@
+/* Cibler spécifiquement le bouton pour plus de certitude */
+.suggestion-button {
+    position: absolute;  /* Fixe la position du bouton par rapport à la fenêtre */
+    top: 110px;  /* Espace du haut de la page */
+    right: 2%;  /* Ajuste la position horizontale du bouton */
+    background-color: #9d69c5;  /* Couleur de fond violette */
+    color: #4b0082;  /* Texte en blanc */
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Changer la couleur de fond quand le bouton est survolé */
+.suggestion-button:hover {
+    background-color: #b28ad1;  /* Couleur de fond lorsqu'on survole, plus clair */
+}
+
+.user-button {
+    position: absolute;  /* Fixe la position du bouton par rapport à la fenêtre */
+    top: 60px;  /* Espace du haut de la page */
+    right: 2%;  /* Ajuste la position horizontale du bouton */
+    background-color: #9d69c5;  /* Couleur de fond violette */
+    color: #4b0082;  
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 110px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Changer la couleur de fond quand le bouton est survolé */
+.user-button:hover {
+    background-color: #b28ad1;  /* Couleur de fond lorsqu'on survole, plus clair */
+}
+
+
+.vote-button {
+    position: absolute; 
+    top: 160px; 
+    right: 2%; 
+    background-color: #9d69c5; 
+    color: #4b0082; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 110px;
+    text-align: center;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.vote-button:hover {
+    background-color: #b28ad1;
+}
+
+.boutonsSuggestions{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.boutonsSuggestions{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.ajouterSugg, .retour{
+    background-color: #9d69c5; 
+    color: #4b0082; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ajouterSugg:hover, .retour:hover{
+    background-color: #b28ad1; 
+}
+

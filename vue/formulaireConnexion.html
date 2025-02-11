@@ -1,0 +1,22 @@
+<h1>Connexion</h1>
+<form action="index.php" method = "post">
+    <div>
+        <input type = "hidden" name = "action" value = "connecterUtilisateur">
+        <input type = "hidden" name = "controleur" value = "controleurUtilisateur">
+    </div>
+
+    <div>
+        <label for="mailUtilisateur">login</label>
+        <input type="mail" name="mailUtilisateur" placeholder ="prenom.nom@mail.fr">
+    </div>
+
+    <div>
+        <label for="mdp">mot de passe</label>
+        <input type="password" name="mdp" placeholder="mot de passe">
+    </div>
+
+    <button type="submit">se connecter</button>
+</form>
+<p>Pas encore de compte ? Créer un compte
+    <a href="index.php?action=afficherFormulaireCreation">ici</a>
+</p>

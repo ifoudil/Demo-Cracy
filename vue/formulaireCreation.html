@@ -1,0 +1,44 @@
+<h1>Créer un compte</h1>
+<form action="index.php" method="post">
+	<div>
+		<input type = "hidden" name = "action" value = "creerUtilisateur">
+		<input type = "hidden" name = "controleur" value = "controleurUtilisateur">
+	</div>
+	
+	<div>
+		<label for="nomUtilisateur">Nom :</label>
+		<input type="text" name="nomUtilisateur" placeholder="votre nom">
+	</div>
+	<div>
+		<label for="prenomUtilisateur">Prenom :</label>
+		<input type="text" name="prenomUtilisateur" placeholder="votre prenom">
+	</div>
+	<div>
+		<label for="adresseUtilisateur">Adresse :</label>
+		<input type="text" name="adresseUtilisateur" placeholder="votre adresse">
+	</div>
+	<div>
+		<label for="CPUtilisateur">code Postal :</label>
+		<input type="text" name="CPUtilisateur" placeholder="votre code postal">
+	</div>
+	<div>
+		<label for="villeUtilisateur">Ville :</label>
+		<input type="text" name="villeUtilisateur" placeholder="votre ville">
+	</div>
+	
+	<div>
+		<label for="mailUtilisateur">Mail :</label>
+		<input type="email" name="mailUtilisateur" placeholder="votre adresse mail">
+	</div>
+	<div>
+		<label for="mdp">Mot de passe :</label>
+		<input type="password" name="mdp" placeholder="votre mot de passe">
+	</div>
+	<div>
+		<label for="mdp">Confirmation du mot de passe :</label>
+		<input type="password" name="mdpConfirmation" placeholder="Confirmation du mot de passe">
+	</div>
+	<button type="submit">Enregistrer</button>
+</form>
+<p>Vous avez déjà un compte. Vous connectez en cliquant <a href="index.php">ici</a></p>
+		

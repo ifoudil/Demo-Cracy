@@ -1,0 +1,11 @@
+.paragraphe-vote {
+    padding: 15px 30px; 
+    max-width: 600px;  
+    margin: 10px auto;  
+    justify-content: center;
+    background-color: #f3f3f3;  
+    border-radius: 5px; 
+    text-align: center;  
+    font-size: 1.2em;  
+    color: #333; 
+}

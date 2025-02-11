@@ -1,0 +1,189 @@
+/* Suppression des puces et marges des listes */
+ul {
+    list-style-type: none;
+    padding: 0;             
+    margin: 0;              
+}
+
+/* Conteneur principal */
+.chat-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px; 
+    min-height: 100vh; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: auto; /* Allow content to dictate height */
+    max-height: 300px; /* Limit height to 300px */
+    margin: 0;
+    padding: 20px 15px;
+    background-color: #3F2C56;
+    overflow-y: auto; /* Show scroll when content exceeds 300px */
+    color: #F5EBFF; /* Texte clair */
+    display: flex;
+    flex-direction: column; /* Organisation verticale */
+}
+
+
+/* En-tête */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /*flex-direction: column;*/
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #F5EBFF; /* Texte clair */
+    margin-bottom: 10px;
+}
+
+.header-logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* Bouton de déconnexion */
+.deconnexion {
+    background-color: #6D4C8B; /* Violet moyen */
+    color: #F5EBFF; /* Texte clair */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 0.9em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.deconnexion:hover {
+    background-color: #9A79B0; /* Violet clair au survol */
+    color: #3F2C56; /* Texte contrastant au survol */
+}
+
+/* Titre de section */
+.section-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #F5EBFF; /* Texte clair */
+    margin-bottom: 10px;
+}
+
+/* Groupes de discussion */
+.chat-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4F3B66; /* Violet légèrement plus clair que le fond */
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #F5EBFF; /* Texte clair */
+    text-decoration: none;
+}
+
+.chat-group:hover {
+    background-color: #9A79B0; /* Violet clair au survol */
+    transform: scale(1.02); 
+}
+
+.chat-group img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.chat-group .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-group .info .name {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #F5EBFF; /* Texte clair */
+}
+
+.chat-group .info .details {
+    font-size: 0.9em;
+    color: #F5EBFF; /* Texte secondaire */
+}
+
+/* Liste des groupes */
+.group-list {
+    flex: 1; /* Prend tout l'espace disponible */
+    overflow-y: auto; /* Active le défilement vertical */
+    max-height: calc(100vh - 150px); /* Adapte la hauteur pour laisser place aux autres éléments */
+    scrollbar-width: thin; /* Barre de défilement fine (Firefox) */
+    scrollbar-color: #6D4C8B #3F2C56; /* Couleurs personnalisées */
+}
+
+/* Barre de défilement pour Webkit (Chrome, Edge) */
+.group-list::-webkit-scrollbar {
+    width: 8px; /* Largeur de la barre */
+}
+
+/* Couleur et style de la barre de défilement */
+.group-list::-webkit-scrollbar-thumb {
+    background-color: #6D4C8B; /* Violet moyen */
+    border-radius: 10px;
+}
+
+.group-list::-webkit-scrollbar-thumb:hover {
+    background-color: #9A79B0; /* Violet clair au survol */
+}
+
+/* Bouton pour créer un groupe */
+.create-group-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-mes-groupes{
+    font-size: 1em;
+    font-weight: bold;
+    color: #F5EBFF; /* Texte clair */ 
+}
+
+.create-group-button .select-create-button{
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    height: 20px;
+    width: 20px;
+}
+
+.create-group-button img{
+    height: 20px;
+    width: 20px;
+}
+
+.create-groupe-button .title-mes-groupes{
+    margin-left: 0;
+}
+
+
+.create-group-button .select-create-button:hover {
+    background-color: #9A79B0; /* Violet clair au survol */
+    color: #3F2C56; /* Texte contrastant au survol */
+}
+

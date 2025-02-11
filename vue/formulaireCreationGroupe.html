@@ -1,0 +1,26 @@
+<h1>Créer un groupe</h1>
+<form action="index.php" method="post">
+    <div>
+        <input type = "hidden" name = "action" value = "creerGroupe">
+        <input type = "hidden" name = "controleur" value = "controleurGroupeUtilisateur">
+    </div>
+    <div>
+        <label for="nomGroupe">Nom du Groupe:</label>
+        <input type="text" name="nomGroupe" placeholder="le nom du groupe">
+    </div>
+    <div>
+        <label for="image">Image du Groupe :</label>
+        <input type="text" name="image" placeholder="lien de l'image de votre groupe (sur internet)">
+    </div>
+    <div>
+        <label for="hexa">Sélectionner une couleur :</label>
+        <input type="color" id="hexa" name="hexa" value="#9d69c5" onchange="updateColorCode()">
+        <br><br>
+    </div>
+    <div>
+        <label for="couleur">Code hexadécimal :</label>
+        <input type="text" id="couleur" name="couleur" value="#9d69c5" readonly>
+        <br><br>
+    </div>
+    <button type="submit">Enregistrer</button>
+</form>

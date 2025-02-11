@@ -1,0 +1,87 @@
+/* Conteneur principal de la navigation */
+.nav-users-container {
+    width: 100%;
+    background-color: #ececec; /* Fond blanc */
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: 20px 0;
+    color: #3c0b3e; /* Texte couleur violet sombre */
+}
+
+/* Titre de la liste d'utilisateurs */
+.nav-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #3c0b3e; /* Couleur principale pour le titre */
+}
+
+/* Liste des utilisateurs */
+.user-list {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Chaque utilisateur */
+.user-item {
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    background-color: #a56cc1; /* Fond violet principal */
+    color: #ffffff; /* Texte blanc */
+    border: none; /* Supprime la bordure */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Effet au survol */
+.user-item:hover {
+    background-color: #8339a2; /* Violet plus foncé */
+    color: #ffffff; /* Conserve le texte blanc */
+}
+
+/* Détails des utilisateurs (email et rôle) */
+.user-details {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Message pour aucun utilisateur */
+.no-users-message {
+    font-size: 16px;
+    color: #3c0b3e; /* Texte violet sombre */
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Style pour le lien 'user' */
+.user {
+    display: inline-block; 
+    position: relative; 
+    top: 20px; 
+    left: 10px; 
+    text-decoration: none; 
+    background-color: #a56cc1; 
+    color: #ffffff; 
+    font-size: 16px; 
+    font-weight: bold; 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+
+.user:hover {
+    background-color: #8d4ea8; 
+    transform: scale(1.05); 
+}
+
+
+.user:active {
+    background-color: #7a3e92; 
+    transform: scale(0.98); 
+}
+
